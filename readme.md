@@ -2,7 +2,7 @@
 
 使用Node.js和Express基于OpenAI's Dall-E models实现AI生成图像
 
-<img src="public/img/screen.png" width="500">
+<img src="public/img/sc.png" width="500">
 
 ## 使用
 
