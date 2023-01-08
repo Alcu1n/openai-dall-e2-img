@@ -1,27 +1,26 @@
-# OpenAI Image Generator
+# DALL·E2——基于OpenAI官方API的AI图片生成
 
-This is a simple image generator built with Node.js and Express that uses [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) to generate images.
-
+使用Node.js和Express基于OpenAI's Dall-E models实现AI生成图像
 <img src="public/img/screen.png" width="500">
 
-## Usage
+## 使用
 
-Rename the `example.env` file to `.env`.
+将`example.env` 重命名为 `.env`.
 
-Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
+在OpenAI官网生成一个KEY[OpenAI](https://beta.openai.com/) 并添加到 `.env` 文件中.
 
-Install the dependencies
+安装依赖
 
 ```bash
 npm install
 ```
 
-Run server
+运行服务
 
 ```bash
 npm start
 ```
 
-Visit `http://localhost:5000` in your browser.
+本地运行
+浏览器访问 `http://localhost:5000`
 
-The endpoint is at `POST http://localhost:5000/openai/generateimage`.
